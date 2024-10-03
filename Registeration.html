@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Register logo.jpg" type="image/x-icon">
+        <title>FOR REGISTERATION</title>
+        <style>
+            body{
+                background-color: beige;
+        }
+            td {
+            padding: 5px;
+        }
+           input, select,textarea{
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+            button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: grey;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>REGISTERATION</h1> 
+            <br>
+            <form>
+            <table>
+            <tr>
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" id="Name"placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td ><textarea id="address"  placeholder="Enter your Address" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="BreakFast">BreakFast:</label></td>
+                <td>
+                    <select required>
+                        <option>Steamed Buns</option>
+                        <option>Rice Porridge or Congee</option>
+                        <option>BanCake</option>
+                        <option>Noodles</option>
+                        <option>Chapathi</option>
+                        <option>Dosa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Lunch">Lunch:</label></td>
+                <td>
+                    <select required>
+                        <option>Full Meals</option>
+                        <option>Rice porridge</option>
+                        <option>Ramen</option>
+                        <option>Curry Rice</option>
+                        <option>Steamed Glutinous Rice</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Dinner">Dinner</label></td>
+                <td>
+                    <select required>
+                        <option>wheat Noodles</option>
+                        <option>Fried rice</option>
+                        <option>idly</option>
+                        <option>Chicken fried rice</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Members">Total Members:</label></td>
+                <td><input type="number" id="Members" placeholder="Enter the no.of members" required></td>
+            </tr>
+            <tr>
+                <td><label for="Date-Booking">Date of Booking:</label></td>
+                <td><input type="date" id="Date-Booking"required></td>
+            </tr>
+            </table>
+            </form>
+            <br><a href="restaurant.html"><button type="button">Go Back</button></a> 
+            <a href="order.html"><button type="submit">Place a Order</button></a>
+        </center>
+    </body>
+</html>
